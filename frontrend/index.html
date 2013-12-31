@@ -1,33 +1,578 @@
-<html lang="ja">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<title></title>
-<style>
-html, body {
-	background-color: #003300;
-	color: white;
-}
-* { font-size: 12px; }
-h1, h2, h3 {
-	font-family: serif;
-	text-align: center;
-}
-h1 { font-size: 4rem; }
-h2 { font-size: 8rem; }
-h3 { font-size: 2rem; }
-.temporary-wording {
-	color: red;
-}
-.temporary-wording:before {
-	content: '\002665';
-	display: block;
-	font-size: 10rem;
-}
-</style>
+<!-- Standard Meta -->
+<meta charset="utf-8" />
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+<title>Frontrend in Fukuoka | Frontrend in Fukuoka</title>
+<meta name="description" content="フロントエンドの最先端で活躍中のデザイナー、プログラマーが 現場で使われている最新の技術や知識、フロントエンドの未来に ついて分かりやすく解説！今回は Frontrend 最終章の企画として 「Webプログラマー」向け、「Webデザイナー」向けのハンズオンも同時開催！！他にもデザイナー、プログラマー必見の最強講師陣が登壇します。福岡の熱い冬を是非体験ください！！" />
+<!-- DocPad Meta -->
+<meta name="generator" content="DocPad v6.59.6" />
+<meta property="og:title" content="http://frontendfrogs.org/frontrend//index.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://frontendfrogs.org/frontrend//index.html">
+<!-- <meta property="og:image" content="http://frontendfrogs.org/frontrend//index.html/ogp.png"> -->
+<meta property="og:description" content="フロントエンドの最先端で活躍中のデザイナー、プログラマーが 現場で使われている最新の技術や知識、フロントエンドの未来に ついて分かりやすく解説！今回は Frontrend 最終章の企画として 「Webプログラマー」向け、「Webデザイナー」向けのハンズオンも同時開催！！他にもデザイナ">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="Frontrend in Fukuoka | Frontrend in Fukuoka">
+<!-- <meta prefix="fb: http://ogp.me/ns/fb#" property="fb:admins" content="363191260415210"> -->
+<!-- <link  rel="stylesheet" href="/styles/all.min.css" /> -->
+<link  rel="stylesheet" href="/styles/reset.css" />
+<link  rel="stylesheet" href="/styles/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Rammetto+One|Alegreya+Sans:400,900|Exo+2:400,900|Bowlby+One+SC|Ultra|Raleway:400,900|Titillium+Web:400,900|Passion+One:400,900|Bowlby+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<h1>Frontrend in Fukuoka</h1>
-	<h2>2014-1-25(Sat)</h2>
-	<h3>Master HTML5, JavaScript, CSS, & Web Dev Tools and Design</h3>
-	<h3 class="temporary-wording">coming soon!</h3>
+<nav class="l-navigation">
+	<ul class="nav">
+		<li><a href="#sessions">セッション</a></li>
+		<li><a href="#timetable">タイムテーブル</a></li>
+		<li><a href="#location">アクセス</a></li>
+		<li><a href="#registration">申し込み</a></li>
+	</ul>
+</nav>
+
+<header class="l-header">
+<div class="masthead">
+	<div class="masthead__cover">
+		<p class="masthead__date type">2014.01.25(SAT) 13:00 - 19:00</p>
+		<h1 class="masthead__title type type--heavy">Frontrend in Fukuoka</h1>
+		<p class="masthead__host type">aip x Frontrend</p>
+		<!-- <p class="masthead__poweredby">by CyberAgent,Inc.</p> -->
+	</div>
+</div>
+</header>
+
+<div class="introduction">
+	<div class="l-container">
+		<p class="introduction__lead">フロントエンドの最先端で活躍中のデザイナー、エンジニアが<br/>
+		現場で使っている最新の技術と知識や、<br>フロントエンドの未来についてお話します！</p>
+		<p>今回は特別企画として向け、ハンズオンも同時開催！福岡のデザイナー、エンジニアのセッションもおこないます。福岡の熱い冬を是非体験ください。</p>
+	</div>
+</div>
+
+<div id="timetable">
+<div class="section timetable">
+	<h2 class="section__title type type--heavy">timetable</h2>
+	<div class="l-container clearfix">
+		<table class="timetable__table timetable__table--conference sheet">
+			<thead>
+				<tr class="sheet__header">
+					<th>時間</th>
+					<th>セミナールームA/B</th>
+					<th>セミナールームC</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="sheet__cell">
+					<th class="timetable__time type">12:30</th>
+					<td colspan="2">
+						<div class="timetable__cell">
+							<span class="timetable__session-title">開場</span>
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<th class="timetable__time type">13:00</th>
+					<td colspan="2">
+						<div class="timetable__cell timetable__cell--keynote">
+							<span class="timetable__room timetable__room--keynote type">[A-1] 45min. 13:00</span><a href="#a-1" class="timetable__session-title">レベルアップ：知っておきたいフロントエンド開発の今</a><br>斉藤 祐也
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<th class="timetable__time type">14:00</th>
+					<td>
+						<div class="timetable__cell timetable__cell--engineer">
+							<span class="timetable__room timetable__room--engineer type">[E-1] 45min. 14:00</span><a href="#e-1" class="timetable__session-title">Frontend Performance Tuning TIPS * </a><br>佐藤 歩
+						</div>
+					</td>
+					<td>
+						<div class="timetable__cell timetable__cell--designer">
+							<span class="timetable__room timetable__room--designer type">[D-1] 45min. 14:00</span><a href="#d-1" class="timetable__session-title">Efficient UI Development</a>
+							<br>石本 光司
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<th class="timetable__time type">15:00</th>
+					<td>
+						<div class="timetable__cell timetable__cell--engineer">
+							<span class="timetable__room timetable__room--engineer type">[E-2] 45min. 16:00</span>
+							<a href="#e-2" class="timetable__session-title">調整中</a>
+						</div>
+					</td>
+					<td>
+						<div class="timetable__cell timetable__cell--designer">
+							<span class="timetable__room timetable__room--designer type">[D-2] 25 + 25min. 15:00</span>
+					<a href="#d-2a" class="timetable__session-title">商店街を参加型デザインで考える（仮）</a><br/>山本 光彦<br>
+					<a href="#d-2b" class="timetable__session-title">HTML5と最近のフロントエンド事情 -思考と作業編</a><br/>西村 宗倫、卜部 加奈子
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<th class="timetable__time type">16:00</th>
+					<td>
+						<div class="timetable__cell timetable__cell--engineer">
+							<span class="timetable__room timetable__room--engineer type">[E-3] 45min. 16:00</span>
+							<a href="#e-3" class="timetable__session-title">Browser Computing Structure</a><br>泉水 翔吾
+						</div>
+					</td>
+					<td>
+						<div class="timetable__cell timetable__cell--designer">
+							<span class="timetable__room timetable__room--designer type">[D-3] 45min. 16:00</span>
+							<a href="#d-3" class="timetable__session-title">Development Is Design（仮）</a><br>水野 隼登
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<th class="timetable__time type">17:00</th>
+					<td colspan="2">
+						<div class="timetable__cell timetable__cell--panel">
+							<span class="timetable__room timetable__room--panel type">[A-2] 45min. 17:00</span><a href="#a-2" class="timetable__session-title">パネルディスカッション</a><br>
+							<dl>
+								<dt>モデレーター：</dt>
+								<dd>中島 幸樹、斉藤 祐也</dd>
+								<dt>パネラー：</dt>
+								<dd>調整中</dd>
+							</dl>
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell">
+					<th class="timetable__time type">18:00</th>
+					<td colspan="2">
+						<div class="timetable__cell">
+							<span class="timetable__session-title">懇親会（ビアバッシュ形式）</span>
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell">
+					<th class="timetable__time type">19:00</th>
+					<td colspan="2">
+						<div class="timetable__cell">
+							<span class="timetable__session-title">終了</span>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="timetable__table timetable__table--workshop sheet">
+			<thead>
+				<tr class="sheet__header">
+					<th>会議室5</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="sheet__cell">
+					<td></td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<td></td>
+				</tr>
+				<tr class="sheet__cell--3">
+					<td>
+						<div class="timetable__cell timetable__cell--workshop">
+							<span class="timetable__room timetable__room--workshop type">[H-1] 90min 14:00</span>
+							<a href="#h-1" class="timetable__session-title">怖くないGit for Frontend Engineers</a><br>原 一成
+							<div class="timetable__registration">
+									<a href="http://www.zusaar.com/event/2767005" class="button button--secondary">ハンズオンに申し込む</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--3">
+					<td>
+						<div class="timetable__cell timetable__cell--workshop">
+							<span class="timetable__room timetable__room--workshop type">[H-2] 90min. 15:30</span>
+							<a href="#h-2" class="timetable__session-title">Goal of Better CSS Architecture</a><br>谷 拓樹
+							<div class="timetable__registration">
+									<a href="http://www.zusaar.com/event/2767006" class="button button--secondary">ハンズオンに申し込む</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr class="sheet__cell--2">
+					<td></td>
+				</tr>
+				<tr class="sheet__cell">
+					<td></td>
+				</tr>
+				<tr class="sheet__cell">
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+</div>
+
+<div id="sessions">
+<div class="section sessions sessions--keynote">
+	<h2 class="section__title sessions__title type type--heavy">Keynote</h2>
+	<div class="l-container">
+		<div id="a-1" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[A-1] 45min. 13:00 - 13:45</span></p>
+			<h3 class="session__title">レベルアップ：知っておきたいフロントエンド開発の今</h3>
+			<div class="session__description">
+				<p>フロントエンドデベロッパ/エンジニアの定義は様々です。しかし現在のWeb開発において欠かすことができない能力の1つであることは間違いありません。 フロントエンドを専門とする人は決して多くはありませんが、誰しもが少しのフロントエンドの経験を持っているはずです。その経験を次のレベルに上げていくために知っておきたい、現在のフロントエンドデベロッパに求められるスキルセットについて紹介していきます。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/saito.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">斉藤 祐也（さいとう ゆうや）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/cssradar"><i class="icon icon--twitter-squared"></i>cssradar</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>1979年生まれ。ネバダ州立ラスベガス大学、プリントジャーナリズム学部卒。株式会社All Aboutで6年、2012年2月からは株式会社サイバーエージェントへ。 個人ではフロントエンドデベロッパのためのミニブックというコンセプトのブログ <a href="http://css.studiomohawk.com/">CSS Radar</a> をはじめ海外記事の翻訳を掲載している <a href="http://enja.studiomohawk.com/">en.ja</a> 、OSSのドキュメント翻訳コミュニティ <a href="https://github.com/enja-oss">en.ja OSS</a> を運営している。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section sessions sessions--engineer">
+	<h2 class="section__title sessions__title type type--heavy">Engineer's Track</h2>
+	<div class="l-container">
+		<div id="e-1" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[E-1] 45min. 14:00 - 14:45</span></p>
+			<h3 class="session__title">Frontend Performance Tuning TIPS * n</h3>
+			<div class="session__description">
+				<p>Webフロントエンドのパフォーマンスは、ユーザーにとってファーストインプレッションであり、そのプロダクトを使い続けるときのパートナーでもあります。</p>
+				<p>本セッションでは、ユーザーにとって、よきフロントエンドであるためのチューニングTipsをご紹介します。チューニング自体に銀の弾丸はありません。これらのTipsが生まれた背景と取捨選択の判断を共有することで、みなさんのチューニングの助けになれば幸いです。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/sato.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">佐藤 歩（さとう あゆむ）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/ahomu"><i class="icon icon--twitter-squared"></i>ahomu</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>1985年生まれ。渋谷でマークアップエンジニアとして、JavaScript/HTML5を中心にフロントエンド技術を探求中。バックエンド寄りWebエンジニアからの転身で、サーバサイドの経験と知識を活かしながら、現職サービスのフロント開発に取り組んでいる。詳しい情報・アクティビティは個人サイト <a href="http://aho.mu/">http://aho.mu</a>にて。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="e-2" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[E-2] 45min. 15:45 -</span></p>
+			<h3 class="session__title">調整中</h3>
+<!-- 			<div class="session__description">
+				<p></p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/sensui.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name"></h4>
+						<p class="speaker__account"><a href="http://twitter.com/"><i class="icon icon--twitter-squared"></i></a></p>
+						<div class="speaker__profile">
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+
+		<div id="e-3" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[E-3] 45min. 16:00 - 16:45</span></p>
+			<h3 class="session__title">Browser Computing Structure</h3>
+			<div class="session__description">
+				<p>最近のWebにはBackbone.jsなどを使ったSPA(Single Page Application)が増えてきました。SPAはブラウザのメモリを抱えがちであり、特にモバイル端末においてはパフォーマンスに影響する、無視できない問題になっています。本セッションではブラウザのメモリ管理の仕組みに着目し、メモリがパフォーマンスに与える影響と、処理の最適化について考察します。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/sensui.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">泉水 翔吾（せんすい しょうご）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/1000ch"><i class="icon icon--twitter-squared"></i>1000ch</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>1987年千葉生まれ。プログラマー出身のフロントエンドディベロッパー。
+JavaScript等のフロントエンド技術を中心に、日々ブラウザの気持ちを考えている一方で、プライベートではPythonもRubyもやる雑食系。 個人ブログ<a href="http://1000ch.net/">1000ch.net</a>で、技術情報を発信中。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section sessions sessions--designer">
+	<h2 class="section__title sessions__title type type--heavy">Designer's Track</h2>
+	<div class="l-container">
+		<div id="d-1" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[D-1] 45min. 14:00 - 14:45</span></p>
+			<h3 class="session__title">Efficient UI Development</h3>
+			<div class="session__description">
+				<p>Webデザインとは単にページを作るということではなく破綻のない『システム』をデザインしなければなりません。そのためにパターン、コンポーネント といった概念が不可欠です。本セッションでは実際に私が開発しているCSSフレームワークである<a href="https://github.com/t32k/maple">Maple</a>において考えたことやコンポーネント化の利点について紹介したいと思います。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/ishimoto.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">石本 光司（いしもと こうじ）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/t32k"><i class="icon icon--twitter-squared"></i>t32k</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>1983年石川県生まれ。大学でデザインを専攻後、晴れてWebデザイナーになるが、コーディング好きが高じてWebデベロッパーに転身。主要な業務としてはHTML/CSS/JavaScriptといったフロントエンド全般を担当。また社内教育やマークアップ監査なども担当している。</p>
+							<p>また、個人ブログ「<a href="http://t32k.me/mol/">MOL - Designing for a Mobile World!</a>」ではWebパフォーマンスやモバイルに関する記事を書いている。不定期でフロントエンドディベロッパーコミュニティ「<a href="http://frontrend.github.io/">Frontrend</a>」を主催している。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="d-2a" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[D-2] 25min. x 2 15:00 - 15:50</span></p>
+			<h3 class="session__title">商店街を参加型デザインで考える（仮）</h3>
+			<div class="session__description">
+				<p>「まちづくり」には行政だけでなく、地域の方、商店街の方、学生、デザイナー、プログラマーなど、多様な方々が一緒に参加し、新しいサービスの発見に取り組みます。学習するデザイン手法や考えかたは「まちづくり」だけでなく、さまざまなサービスにも応用ができます。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/yamamoto.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">山本 光彦（やまもと みつひこ）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/ya_ma23"><i class="icon icon--twitter-squared"></i>ya_ma23</a></p>
+						<div class="speaker__profile">
+							<p>株式会社Fusic　エンジニア</p>
+							<p>
+	UX Fukuoka は、福岡を中心とした地域で活動する人々が、UX（ユーザーエクスペリエンス）や人間中心設計にまつわることがらを、学び、研究するコミュニティです。 ほぼ毎月、勉強会を催しています。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="d-2b" class="sessions__content session">
+			<h3 class="session__title">HTML5と最近のフロントエンド事情 -思考と作業編</h3>
+			<div class="session__description">
+				<p>進化するWeb技術の中で目的を実現する為に選択肢が増えてきた昨今、効率良く作業していく為には何を選ぶべきなのか、講師２人の対談形式のセッションで掘り下げていきます。</p>
+			</div>
+			<div class="speaker">
+				<div class="speaker-item media">
+					<img src="/images/nishimura.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">西村 宗倫（にしむら むねのり）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/mune_nori"><i class="icon icon--twitter-squared"></i>mune_nori</a></p>
+						<div class="speaker__profile">
+							<p>Webディレクター/デザイナー</p>
+							<p>福岡マークアップ勉強会 HTML5+α @ 福岡 福岡WEBディレクターズ 運営 好きな食べ物はラーメン</p>
+						</div>
+					</div>
+				</div>
+				<div class="speaker-item media">
+					<img src="/images/urabe.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">卜部 加奈子（うらべ かなこ）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/kanapple73"><i class="icon icon--twitter-squared"></i>kanapple73</a></p>
+						<div class="speaker__profile">
+							<p>フロントエンドエンジニア</p>
+							<p>福岡マークアップ勉強会 HTML5+α @ 福岡 webっちゃ 運営</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="d-3" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[D-3] 45min. 16:00 - 16:45</span></p>
+			<h3 class="session__title">Development Is Design（仮）</h3>
+			<div class="session__description">
+				<p>フロントエンドの観点から柔軟なデザインプロセスの構築、Webの特性を踏まえたデザインについて紹介します。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/mizuno.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">水野 隼登（みずの はやと）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/pocotan001"><i class="icon icon--twitter-squared"></i>pocotan001</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>1983年生まれ。フロントエンドディベロッパーとして、2012年11月より株式会社サイバーエージェントに入社。Webアプリのフロントエンド開発、運営などを行う。ブログは <a href="http://pocotumblr.tumblr.com/">pocotumblr</a> 、前職はWebデザイナー。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section sessions sessions--workshop">
+	<h2 class="section__title sessions__title type type--heavy">Hands-on</h2>
+	<div class="l-container">
+		<div id="h-1" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[H-1] 90min. 14:00 - 15:30</span></p>
+			<h3 class="session__title">怖くないGit for Frontend Engineers ~入門から導入ノウハウまで~</h3>
+			<div class="session__description">
+				<p>ソースコード管理システムとしてスタンダードになっているGitですが、機能が豊富で「なんか怖い」と思ってしまいがちです。特にフロントエンドの担当者にとっては距離を感じるものでもあります。</p>
+				<p>サイバーエージェントではGitHub Enterprise導入を期に、フロントエンドエンジニアも利用し、効率・クオリティアップにつなげることができました。Gitを取り入れるメリットやGitHubと連携したソースコードレビュー・リリースフローなど Gitを導入した経験に基づき、お伝えします。</p>
+				<p>なお、本講座ではワークを通して実際に作業しながら覚えていきます。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/hara.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">原 一成（はら かずなり）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/herablog"><i class="icon icon--twitter-squared"></i>herablog</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>2008年に入社。PC/モバイル向けAmebaブログ、アメゴールドなどを担当後、Amebaブログ、Amebaピグのスマートフォン版を立ち上げ、現在はスマートフォン向け<a href="https://s.amebame.com/">Ameba</a>の開発をしている。主な開発言語はHTML, CSS, JavaScript(node.js含む)。最近はシェルスクリプトに(少しだけ)はまっている。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="h-2" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[H-2] 90min. 15:30 - 17:00</span></p>
+			<h3 class="session__title">Goal of Better CSS Architecture</h3>
+			<div class="session__description">
+				<p>本ハンズオンセッションでは、保守性・再利用性の高いCSSの設計を考えるセッションになります。 運用にともなって複雑になるWebサイト、WebアプロケーションのCSS運用において、どのようにすれば その保守コストを下げられるのか、というアイデアを実際に手を動かしながら考えてみましょう。</p>
+			</div>
+			<div class="speaker">
+				<div class="media">
+					<img src="/images/tani.jpg" class="speaker__image media__image">
+					<div class="speaker__body media__body">
+						<h4 class="speaker__name">谷 拓樹（たに ひろき）</h4>
+						<p class="speaker__account"><a href="http://twitter.com/hiloki"><i class="icon icon--twitter-squared"></i>hiloki</a></p>
+						<div class="speaker__profile">
+							<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+							<p>中小企業向けのアプリケーション開発、スタートアップでのスマートフォンサイト制作などを経て、現在はスマートフォンアプリの開発、テクニカルディレクションを担当している。 主な著書に「 <a href="http://www.amazon.co.jp/dp/4899772750/">魅せるiPhoneサイト</a> 」「 <a href="http://www.amazon.co.jp/dp/4844362232/">スマートフォン制作の教科書（共著）</a> 」。個人の技術ブログは<a href="http://inkdesign.jp">inkdesign</a>。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section sessions sessions--panel">
+	<h2 class="section__title sessions__title type type--heavy">Panel Discussion</h2>
+	<div class="l-container">
+		<div id="a-2" class="sessions__content session">
+			<p class="session__info"><span class="session__room"></span><span class="session__time type">[A-2] 45min. 17:00 - 17:45</span></p>
+			<h3 class="session__title">パネルディスカッション</h3>
+			<div class="session__description media__body">
+				<p>それぞれ異なる立場や経験を持つ数名のパネリストが、どんな風にキャリアを積んできたのか、そして彼ら自身は今後どんな方向に自身のキャリアを考えているのか。 第一線で活躍するパネリストから、なかなか聞けない生の声をパネルディスカッション形式でお届けします。</p>
+			</div>
+			<!-- <div class="speaker">
+				<div class="speaker__body">
+					<h4 class="speaker__name">佐藤 歩（さとう あゆむ）</h4>
+					<p class="speaker__account"><a href=""><i class="icon icon--twitter-squared"></i>ahomu</a></p>
+					<div class="speaker__profile">
+						<p>株式会社サイバーエージェント フロントエンドディベロッパー</p>
+						<p>1985年生まれ。渋谷でマークアップエンジニアとして、JavaScript/HTML5を中心にフロントエンド技術を探求中。バックエンド寄りWebエンジニアからの転身で、サーバサイドの経験と知識を活かしながら、現職サービスのフロント開発に取り組んでいる。詳しい情報・アクティビティは個人サイト <a href="http://aho.mu/">http://aho.mu</a>にて。</p>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+</div>
+
+<div id="location">
+<div class="section location">
+	<h2 class="section__title locations__title type type--heavy">Location</h2>
+	<div class="l-container">
+		<p class="location__address \">
+		福岡県福岡市博多区博多東1-17-1<a href="http://goo.gl/maps/dN5nz"><i class="icon icon--location"></i>Googleマップ</a><br>
+		Rubyコンテンツ産業振興センター5F セミナールーム A,B,C会議室
+		</p>
+		<div class="location__map">
+			<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=Ruby%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E7%94%A3%E6%A5%AD%E6%8C%AF%E8%88%88%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC5F&amp;aq=&amp;sll=33.59026,130.424409&amp;sspn=0.010314,0.025084&amp;brcurrent=3,0x354191c979b08b81:0x4b76a366f3fccd33,0&amp;ie=UTF8&amp;hq=Ruby%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E7%94%A3%E6%A5%AD%E6%8C%AF%E8%88%88%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC5F&amp;hnear=&amp;ll=33.59026,130.424409&amp;spn=0.010314,0.025084&amp;t=m&amp;output=embed"></iframe>
+		</div>
+	</div>
+</div>
+</div>
+
+<div id="registration">
+<div class="section registration">
+	<div class="l-container">
+		<p class="registration__session">
+			<a href="http://www.zusaar.com/event/2767004" class="button button--primary button--large">Frontrend in Fukuoka 本編に申し込む</a>
+		</p>
+		<dl class="registration__fee">
+			<dt>社会人：</dt>
+			<dd>2,000円</dd>
+			<dt>学生：</dt>
+			<dd>1,000円</dd>
+		</dl>
+		<p class="registration__workshop">
+			<a href="http://www.zusaar.com/event/2767005" class="button button--secondary">Gitハンズオンに申し込む</a>
+		</p>
+		<p class="registration__workshop">
+			<a href="http://www.zusaar.com/event/2767006" class="button button--secondary">CSS設計ハンズオンに申し込む</a>
+		</p>
+		<ul class="registration__note l-container">
+			<li>ハンズオンは席に限りがあります。<br>参加希望の方は<strong>必ず</strong>別途ハンズオン専用の申し込みページより申し込みをおこなってください。</li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<div class="sponsers">
+	<div class="section">
+		<div class="sponsers__host">
+			<h2 class="sponsers__role type">Powered by</h2>
+			<ul class="sponser-list">
+				<li>
+					<a href="http://www.cyberagent.co.jp/"><img src="/images/logo-cyberagent.png" class="sponser__logo"></a>
+					<p class="sponser__name">株式会社サイバーエージェント</p>	
+				</li>
+				<li>
+					<a href="http://www.npo-aip.or.jp/"><img src="/images/logo-aip.png" class="sponser__logo"></a>
+					<p class="sponser__name">特定非営利活動法人AIP</p>	
+				</li>
+				<li>
+					<a href="http://frontrend.github.io/"><img src="/images/logo-frontrend.png" class="sponser__logo"></a>
+					<p class="sponser__name">Frontrend</p>	
+				</li>
+			</ul>
+		</div>
+		<div class="sponsers__partner">
+			<h2 class="sponsers__role type">Supported by</h2>
+			<ul class="sponser-list">
+				<li>
+					<a href="http://www.backlog.jp/"><img src="/images/logo-nulab.png" class="sponser__logo"></a>
+					<p class="sponser__name">Backlog</p>	
+				</li>
+				<li>
+					<a href="http://frontendfrogs.org/"><img src="/images/logo-fff.png" class="sponser__logo"></a>
+					<p class="sponser__name">Fukuoka Frontend Frog</p>	
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<footer class="l-footer">
+	<div class="footer">
+		<p class="copyright type">© 2013 Frontrend powered by <a href="http://www.cyberagent.co.jp/">CyberAgent, Inc.</a></p>
+		<div class="share type">
+			<p>Share this event:</p>
+			<ul class="share-list type">
+				<li><a href="https://twitter.com/intent/tweet?url=http://frontendfrogs.org/frontrend/&hashtags=frontrend&text=Frontrend%20in%20Fukuoka"><i class="icon icon--twitter-squared"></i>Twitter</a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://frontendfrogs.org/frontrend/"><i class="icon icon--facebook-squared"></i>Facebook</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<script defer="defer"  src="/scripts/all.min.js"></script>
 </body>
 </html>
+
+
