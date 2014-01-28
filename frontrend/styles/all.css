@@ -139,9 +139,16 @@ textarea {
     font-size: 1.5rem
 }
 
-.introduction__register {
-    margin-top: 2em;
-    text-align: center
+.closing {
+    padding: 1em 1em 2em 1em
+}
+
+.closing__lead {
+    margin-bottom: 0.4em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #44af35;
 }
 
 .section {
@@ -437,9 +444,10 @@ textarea {
 }
 
 .registration__note {
+    margin-top: 1em;
     text-align: left;
-    font-size: 13px;
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 .sponsers {
@@ -533,6 +541,14 @@ textarea {
 
 .button--secondary:hover {
     background-color: #16a085
+}
+
+.button--disabled {
+    background-color: #cacaca;
+}
+
+.button--disabled:hover {
+    background-color: #cacaca
 }
 
 .button--large {
